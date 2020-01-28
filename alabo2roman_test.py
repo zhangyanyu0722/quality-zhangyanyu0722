@@ -1,5 +1,4 @@
-#Copyright @2020 Yanyu Zhang zhangya@bu.edu
-
+# Copyright @2020 Yanyu Zhang zhangya@bu.edu
 from alabo2roman import alabo2roman
 
 def test_right(): 
