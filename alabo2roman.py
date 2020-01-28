@@ -1,7 +1,7 @@
 # !usr/bin/env python
 # Copyright @2020 Yanyu Zhang zhangya@bu.edu
 def alabo2roman(one_num):
-  if not isinstance(one_num,int) and one_num < 1:
+  if not isinstance(one_num,int) or one_num < 1:
     return "ERROR"
 
   num_list=[1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1]
