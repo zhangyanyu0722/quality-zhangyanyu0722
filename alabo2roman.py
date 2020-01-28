@@ -1,5 +1,3 @@
-#Copyright @2020 Yanyu Zhang zhangya@bu.edu
-
 def alabo2roman(one_num):
   if not isinstance(one_num,int) and one_num < 1:
     return "ERROR"
