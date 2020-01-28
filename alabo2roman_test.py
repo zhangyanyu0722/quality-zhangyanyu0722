@@ -1,5 +1,12 @@
 # !usr/bin/env python
+# ===================================================================================
 # Copyright @2020 Yanyu Zhang zhangya@bu.edu
+# HW1 : 1 Write python program to convert Arabic Numerals to Roman Numerals
+#       2 Integrate Continuous Build Process to check if your software in each development 
+#       stage passed the build process.
+#       3 Integrate unit test and run the unit test in continuous integration process
+# ===================================================================================
+
 from alabo2roman import alabo2roman
 import pytest
 
