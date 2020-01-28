@@ -15,7 +15,6 @@ def test_right():
 	assert alabo2roman(432) == "CDXXXII"
 
 def test_error():
-	assert alabo2roman(99.9) == "ERROR"
 	assert alabo2roman(-1) == "ERROR"
 	assert alabo2roman("String") == "ERROR"
 	assert alabo2roman(23.4) == "ERROR" 
