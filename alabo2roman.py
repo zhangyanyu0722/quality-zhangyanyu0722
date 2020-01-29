@@ -24,6 +24,6 @@ def alabo2roman(one_num):
 
 if __name__ == '__main__':
   print('The results of conversion are showing :')
-  one_num_list=[77,66,55,8,1200,34,65,3,21,99]
+  one_num_list=[77,66,55,8,1200,34,65,3,21,99,100,2]
   for one_num in one_num_list:
     print(one_num,'----->',alabo2roman(one_num))
