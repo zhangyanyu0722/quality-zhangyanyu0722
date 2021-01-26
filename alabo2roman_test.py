@@ -31,5 +31,5 @@ def test_error():
 	assert alabo2roman(123.5) == "ERROR -----> It is not a int"
 	assert alabo2roman(-1) == "ERROR -----> It is not in the range [1,3999]"
 	assert alabo2roman(0) == "ERROR -----> It is not in the range [1,3999]"
-	assert alabo2roman(4000) == "ERROR -----> It is not in the range [1,3999]"
+	assert alabo2roman(5000) == "ERROR -----> It is not in the range [1,3999]"
 	assert alabo2roman(-400) == "ERROR -----> It is not in the range [1,3999]"
