@@ -10,7 +10,7 @@
 def alabo2roman(one_num):
   if not isinstance(one_num,int):
     return "ERROR -----> It is not a int"
-  if one_num > 3999 or one_num < 1:
+  if one_num > 4999 or one_num < 1:
     return "ERROR -----> It is not in the range [1,3999]"
 
   num_list=[1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1]
